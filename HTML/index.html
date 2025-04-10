@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>CodeVital - Desenvolvimento de Software</title>
+</head>
+
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <a href="index.html" class="logo">
+            <img src="/imagens/logo.png" alt="CodeVital Logo" class="logo-image">
+        </a>
+        
+        <nav class="nav-menu">
+            <a href="servicos.html" class="nav-item">Serviços</a>
+            <a href="sobre_nos.html" class="nav-item">Sobre Nós</a>
+            <a href="depoimentos.html" class="nav-item">Depoimentos</a>
+            <a href="faq.html" class="nav-item">FAQ</a>
+        </nav>
+        
+        <a href="login.html" class="login">Login</a>
+    </header>
+    
+    <!-- Hero Section -->
+    <section class="hero-section">
+        <div class="hero-content">
+            <h1 class="hero-title">Transformamos Ideias em Código</h1>
+            <p class="hero-subtitle">Desenvolvimento de software personalizado para empresas que buscam inovação, eficiência e excelência técnica.</p>
+            
+            <div class="code-snippet">
+                <pre><span class="keyword">function</span> <span class="function">transformIdeas</span>() {
+  <span class="keyword">const</span> <span class="variable">client</span> = {
+    <span class="variable">idea</span>: <span class="string">"Uma aplicação revolucionária"</span>,
+    <span class="variable">needs</span>: [<span class="string">"Escalabilidade"</span>, <span class="string">"Segurança"</span>, <span class="string">"UX incrível"</span>]
+  };
+  
+  <span class="keyword">return</span> <span class="variable">CodeVital</span>.<span class="function">develop</span>(<span class="variable">client</span>);
+  <span class="comment">// Resultado: Solução de software personalizada</span>
+}</pre>
+            </div>
+            
+            <a href="#contact" class="cta-button">Iniciar Projeto</a>
+        </div>
+    </section>
+    
+    <!-- Serviços -->
+    <section class="services-section">
+        <h2 class="section-title">Nossos Serviços</h2>
+        
+        <div class="services-grid">
+            <div class="service-card">
+                <div class="service-icon"><i class="fas fa-code"></i></div>
+                <h3 class="service-title">Desenvolvimento Web</h3>
+                <p class="service-description">Criamos aplicações web modernas e responsivas utilizando as mais recentes tecnologias como React, Angular e Node.js.</p>
+                <a href="servicos.html" class="service-link">Saiba mais</a>
+            </div>
+            
+            <div class="service-card">
+                <div class="service-icon"><i class="fas fa-mobile-alt"></i></div>
+                <h3 class="service-title">Aplicativos Móveis</h3>
+                <p class="service-description">Desenvolvemos apps nativos e híbridos para iOS e Android que oferecem experiências excepcionais aos usuários.</p>
+                <a href="servicos.html" class="service-link">Saiba mais</a>
+            </div>
+            
+            <div class="service-card">
+                <div class="service-icon"><i class="fas fa-database"></i></div>
+                <h3 class="service-title">Arquitetura de Sistemas</h3>
+                <p class="service-description">Projetamos arquiteturas escaláveis e seguras que suportam o crescimento do seu negócio e garantem performance.</p>
+                <a href="servicos.html" class="service-link">Saiba mais</a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Projetos -->
+    <section class="projects-section">
+        <h2 class="section-title">Projetos Recentes</h2>
+        
+        <div class="projects-grid">
+            <div class="project-card">
+                <img src="/placeholder.svg?height=200&width=400" alt="Projeto 1" class="project-image">
+                <div class="project-content">
+                    <h3 class="project-title">Sistema de E-commerce</h3>
+                    <div class="project-tags">
+                        <span class="project-tag">React</span>
+                        <span class="project-tag">Node.js</span>
+                        <span class="project-tag">MongoDB</span>
+                    </div>
+                    <p class="project-description">Plataforma completa de e-commerce com gestão de produtos, pagamentos e análise de dados em tempo real.</p>
+                    <a href="card_1.html" class="project-link">Ver detalhes</a>
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <img src="/placeholder.svg?height=200&width=400" alt="Projeto 2" class="project-image">
+                <div class="project-content">
+                    <h3 class="project-title">App de Gestão Financeira</h3>
+                    <div class="project-tags">
+                        <span class="project-tag">Flutter</span>
+                        <span class="project-tag">Firebase</span>
+                        <span class="project-tag">GraphQL</span>
+                    </div>
+                    <p class="project-description">Aplicativo móvel para controle financeiro pessoal com sincronização em nuvem e relatórios detalhados.</p>
+                    <a href="card_2.html" class="project-link">Ver detalhes</a>
+                </div>
+            </div>
+            
+            <div class="project-card">
+                <img src="/placeholder.svg?height=200&width=400" alt="Projeto 3" class="project-image">
+                <div class="project-content">
+                    <h3 class="project-title">Dashboard Analítico</h3>
+                    <div class="project-tags">
+                        <span class="project-tag">Vue.js</span>
+                        <span class="project-tag">Python</span>
+                        <span class="project-tag">PostgreSQL</span>
+                    </div>
+                    <p class="project-description">Dashboard interativo para visualização de dados empresariais com métricas personalizáveis e insights em tempo real.</p>
+                    <a href="card_3.html" class="project-link">Ver detalhes</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Estatísticas -->
+    <section class="stats-section">
+        <h2 class="section-title">Nossos Números</h2>
+        
+        <div class="stats-grid">
+            <div class="stat-item">
+                <div class="stat-number">100+</div>
+                <div class="stat-label">Projetos Entregues</div>
+            </div>
+            
+            <div class="stat-item">
+                <div class="stat-number">98%</div>
+                <div class="stat-label">Clientes Satisfeitos</div>
+            </div>
+            
+            <div class="stat-item">
+                <div class="stat-number">1+</div>
+                <div class="stat-label">Anos de Experiência</div>
+            </div>
+            
+            <div class="stat-item">
+                <div class="stat-number">24/7</div>
+                <div class="stat-label">Suporte Técnico</div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- CTA Section -->
+    <section class="cta-section" id="contact">
+        <div class="cta-content">
+            <h2 class="cta-title">Pronto para Transformar sua Ideia em Realidade?</h2>
+            <p class="cta-description">Entre em contato conosco para discutir seu projeto e descobrir como podemos ajudar a impulsionar seu negócio com soluções tecnológicas sob medida.</p>
+            <a href="mailto:contato@codevital.com" class="cta-button">Solicitar Orçamento</a>
+        </div>
+    </section>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-column">
+                <h3>CodeVital</h3>
+                <p>Transformando ideias em soluções tecnológicas inovadoras desde 2024.</p>
+                <div class="social-icons">
+                    <a href="https://github.com/seu-usuario" target="_blank" class="social-icon">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.facebook.com/profile.php?id=61572344543568" target="_blank" class="social-icon">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="https://www.instagram.com/diogoarthurvitalis?igsh=MTZraTNoY2I2MzNlbw==" target="_blank" class="social-icon">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+                
+            </div>
+            
+            <div class="footer-column">
+                <h3>Links Rápidos</h3>
+                <ul class="footer-links">
+                    <li><a href="servicos.html">Serviços</a></li>
+                    <li><a href="sobre_nos.html">Sobre Nós</a></li>
+                    <li><a href="depoimentos.html">Depoimentos</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-column">
+                <h3>Serviços</h3>
+                <ul class="footer-links">
+                    <li><a href="servicos.html#web">Desenvolvimento Web</a></li>
+                    <li><a href="servicos.html#mobile">Aplicativos Móveis</a></li>
+                    <li><a href="servicos.html#automation">Automação de Processos</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-column footer-contact">
+                <h3>Contato</h3>
+                <p><i class="fas fa-envelope"></i> diogovitalisdev@gmail.com</p>
+                <p><i class="fas fa-phone"></i> +55 (55) 99720-6238</p>
+                <p><i class="fas fa-map-marker-alt"></i> Santa Maria, SM - Brasil</p>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2025 CodeVital - Todos os direitos reservados</p>
+        </div>
+    </footer>  
+</body>
+
+</html>
