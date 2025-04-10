@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../CSS/global.css">
+    <link rel="stylesheet" href="../CSS/faq.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>FAQ - CodeVital</title>
+</head>
+
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <a href="index.html" class="logo">
+            <img src="/imagens/logo.png" alt="CodeVital Logo" class="logo-image">
+        </a>
+        <nav class="nav-menu">
+            <a href="servicos.html" class="nav-item">Serviços</a>
+            <a href="sobre_nos.html" class="nav-item">Sobre Nós</a>
+            <a href="depoimentos.html" class="nav-item">Depoimentos</a>
+            <a href="faq.html" class="nav-item">FAQ</a>
+        </nav>
+        
+        <a href="login.html" class="login">Login</a>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="faq-hero">
+        <div class="faq-hero-content">
+            <h1 class="faq-hero-title">Perguntas Frequentes</h1>
+            <p class="faq-hero-subtitle">Respostas para as dúvidas mais comuns sobre nossos serviços</p>
+        </div>
+    </section>
+
+    <!-- FAQ Categorias -->
+    <section class="faq-section">
+        <div class="container">
+            <div class="faq-intro">
+                <p>A <strong>CodeVital</strong> é uma empresa especializada em desenvolvimento de software e soluções tecnológicas personalizadas. Abaixo, respondemos às perguntas mais frequentes sobre nossos serviços e processos.</p>
+            </div>
+            
+            <div class="faq-categories">
+                <div class="category-tabs">
+                    <button class="category-tab active" data-category="geral">Geral</button>
+                    <button class="category-tab" data-category="servicos">Serviços</button>
+                    <button class="category-tab" data-category="processo">Processo de Desenvolvimento</button>
+                    <button class="category-tab" data-category="tecnologias">Tecnologias</button>
+                    <button class="category-tab" data-category="suporte">Suporte e Manutenção</button>
+                </div>
+                
+                <!-- Perguntas Gerais -->
+                <div class="faq-container active" id="geral">
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <span>O que é a CodeVital?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>A CodeVital é uma empresa especializada no desenvolvimento de software sob medida, que visa transformar ideias em soluções tecnológicas eficientes. Fundada em 2010, temos uma equipe de profissionais altamente qualificados em diversas áreas da tecnologia.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <span>Onde a CodeVital está localizada?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Nossa sede está localizada em São Paulo, Brasil, mas atendemos clientes em todo o país e também internacionalmente. Realizamos reuniões presenciais e remotas de acordo com a necessidade e preferência do cliente.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <span>Como posso entrar em contato com a CodeVital?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Você pode entrar em contato conosco através do e-mail <a href="mailto:contato@codevital.com">contato@codevital.com</a>, pelo telefone +55 (11) 9999-8888 ou preenchendo o formulário em nosso site. Também estamos presentes nas principais redes sociais.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <span>A CodeVital trabalha com empresas de qualquer tamanho?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Sim! Atendemos desde startups e pequenas empresas até grandes corporações. Nossas soluções são escaláveis e adaptáveis às necessidades específicas de cada cliente, independentemente do tamanho da organização.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Perguntas sobre Serviços -->
+                <div class="faq-container" id="servicos">
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <span>Quais serviços a CodeVital oferece?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Oferecemos uma ampla gama de serviços, incluindo:</p>
+                            <ul>
+                                <li>Desenvolvimento de software sob medida</li>
+                                <li>Desenvolvimento web e mobile</li>
+                                <li>Consultoria em tecnologia</li>
+                                <li>Arquitetura de sistemas</li>
+                                <li>Integração de sistemas</li>
+                                <li>Automação de processos</li>
+                                <li>Soluções de inteligência artificial</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <span>Como solicitar um orçamento para meu projeto?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Para solicitar um orçamento, basta entrar em contato conosco por e-mail, telefone ou através do formulário em nosso site. Agendaremos uma reunião para entender melhor suas necessidades e objetivos, e com base nisso, elaboramos uma proposta detalhada.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <span>Qual é o tempo médio de desenvolvimento de um projeto?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>O tempo de desenvolvimento varia de acordo com a complexidade do projeto. Projetos simples podem levar algumas semanas, enquanto projetos mais complexos podem levar vários meses. Durante a fase de planejamento, estabelecemos um cronograma detalhado com marcos e entregas definidos.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <span>A CodeVital oferece manutenção após a conclusão do projeto?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Sim, oferecemos serviços de manutenção e suporte contínuos após a conclusão do projeto. Temos diferentes planos de suporte para atender às necessidades específicas de cada cliente, garantindo que suas soluções permaneçam atualizadas, seguras e funcionando perfeitamente.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Perguntas sobre Processo -->
+                <div class="faq-container" id="processo">
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <span>Como funciona o processo de desenvolvimento da CodeVital?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Nosso processo de desenvolvimento segue uma metodologia ágil e é dividido em seis etapas principais:</p>
+                            <ol>
+                                <li><strong>Descoberta:</strong> Entendemos profundamente seu negócio, objetivos e desafios.</li>
+                                <li><strong>Planejamento:</strong> Definimos escopo, arquitetura, tecnologias e cronograma.</li>
+                                <li><strong>Desenvolvimento:</strong> Utilizamos práticas ágeis para desenvolver sua solução.</li>
+                                <li><strong>Testes:</strong> Realizamos testes rigorosos de qualidade, segurança e performance.</li>
+                                <li><strong>Implementação:</strong> Colocamos a solução em produção com acompanhamento completo.</li>
+                                <li><strong>Evolução Contínua:</strong> Oferecemos suporte e implementamos melhorias.</li>
+                            </ol>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <span>Como a CodeVital garante a qualidade do código?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Garantimos a qualidade do código através de diversas práticas:</p>
+                            <ul>
+                                <li>Seguimos padrões de codificação e boas práticas</li>
+                                <li>Realizamos revisões de código por pares</li>
+                                <li>Implementamos testes automatizados (unitários, integração, etc.)</li>
+                                <li>Utilizamos ferramentas de análise estática de código</li>
+                                <li>Fazemos testes manuais e automatizados de qualidade</li>
+                                <li>Temos processos de CI/CD (Integração e Entrega Contínuas)</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <span>Como acompanho o progresso do meu projeto?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Mantemos uma comunicação transparente durante todo o processo de desenvolvimento. Realizamos reuniões regulares de acompanhamento, fornecemos relatórios de progresso e utilizamos ferramentas de gestão de projetos que permitem ao cliente acompanhar o status em tempo real.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Perguntas sobre Tecnologias -->
+                <div class="faq-container" id="tecnologias">
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <span>Quais tecnologias a CodeVital utiliza?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Trabalhamos com diversas tecnologias, incluindo:</p>
+                            <ul>
+                                <li><strong>Frontend:</strong> React, Angular, Vue.js, HTML5, CSS3, JavaScript</li>
+                                <li><strong>Backend:</strong> Node.js, Python, Java, .NET, PHP</li>
+                                <li><strong>Mobile:</strong> React Native, Flutter, Swift, Kotlin</li>
+                                <li><strong>Banco de dados:</strong> MySQL, PostgreSQL, MongoDB, Redis, SQL Server</li>
+                                <li><strong>Cloud:</strong> AWS, Azure, Google Cloud</li>
+                                <li><strong>DevOps:</strong> Docker, Kubernetes, Jenkins, GitHub Actions</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <span>Como a CodeVital escolhe as tecnologias para um projeto?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>A escolha das tecnologias é baseada em diversos fatores, incluindo os requisitos específicos do projeto, o ecossistema tecnológico existente do cliente, a escalabilidade necessária, considerações de segurança, e as melhores práticas do mercado. Sempre discutimos as opções com o cliente e explicamos os prós e contras de cada abordagem.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <span>A CodeVital pode trabalhar com tecnologias específicas solicitadas pelo cliente?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Sim, podemos trabalhar com tecnologias específicas solicitadas pelo cliente. Nossa equipe é versátil e constantemente se atualiza para acompanhar as tendências do mercado. Caso não tenhamos especialistas em uma tecnologia particular, podemos incorporar profissionais com a expertise necessária à nossa equipe.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Perguntas sobre Suporte -->
+                <div class="faq-container" id="suporte">
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <span>Como funciona o suporte técnico da CodeVital?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Oferecemos diferentes níveis de suporte técnico, desde suporte básico até suporte premium 24/7. Os clientes podem entrar em contato através de um sistema de tickets, e-mail ou telefone, dependendo da urgência e do plano contratado. Nosso tempo de resposta varia de acordo com a criticidade do problema e o plano de suporte.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <span>Quanto custa o serviço de manutenção?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>O custo do serviço de manutenção varia de acordo com a complexidade do sistema, o nível de suporte necessário e a frequência das atualizações. Geralmente, oferecemos planos mensais ou anuais com diferentes níveis de serviço. Entre em contato conosco para receber uma proposta personalizada.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <span>É possível adicionar novas funcionalidades após o término do projeto?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Sim, é possível adicionar novas funcionalidades após o término do projeto. Na verdade, esse é um cenário comum, pois as necessidades dos negócios evoluem com o tempo. Podemos trabalhar com base em sprints de desenvolvimento para implementar novas funcionalidades e melhorias contínuas.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="faq-item">
+                        <div class="faq-question">
+                            <span>A CodeVital oferece treinamento para a equipe do cliente?</span>
+                            <i class="fas fa-chevron-down"></i>
+                        </div>
+                        <div class="faq-answer">
+                            <p>Sim, oferecemos serviços de treinamento para garantir que a equipe do cliente esteja capacitada para utilizar plenamente a solução desenvolvida. Os treinamentos podem ser personalizados de acordo com as necessidades específicas e podem ser realizados presencialmente ou remotamente.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="faq-cta">
+                <h3>Não encontrou o que procurava?</h3>
+                <p>Entre em contato conosco para esclarecer qualquer dúvida adicional. Nossa equipe está pronta para ajudar.</p>
+                <div class="cta-buttons">
+                    <a href="mailto:contato@codevital.com" class="cta-button">Fale Conosco</a>
+                    <a href="contato.html" class="outline-button">Formulário de Contato</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-column">
+                <h3>CodeVital</h3>
+                <p>Transformando ideias em soluções tecnológicas inovadoras desde 2010.</p>
+                <div class="social-icons">
+                    <a href="#" class="social-icon"><i class="fab fa-github"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+            
+            <div class="footer-column">
+                <h3>Serviços</h3>
+                <ul class="footer-links">
+                    <li><a href="servicos.html#web">Desenvolvimento Web</a></li>
+                    <li><a href="servicos.html#mobile">Aplicativos Móveis</a></li>
+                    <li><a href="servicos.html#automation">Automação de Processos</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-column">
+                <h3>Serviços</h3>
+                <ul class="footer-links">
+                    <li><a href="#web">Desenvolvimento Web</a></li>
+                    <li><a href="#mobile">Aplicativos Móveis</a></li>
+                    <li><a href="#automation">Automação de Processos</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-column footer-contact">
+                <h3>Contato</h3>
+                <p><i class="fas fa-envelope"></i> contato@codevital.com</p>
+                <p><i class="fas fa-phone"></i> +55 (11) 9999-8888</p>
+                <p><i class="fas fa-map-marker-alt"></i> São Paulo, SP - Brasil</p>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2025 CodeVital - Todos os direitos reservados</p>
+        </div>
+    </footer>
+</body>
+</html>
